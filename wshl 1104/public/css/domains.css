@@ -1,0 +1,309 @@
+/*top-banner*/
+div.banner{
+    width: 100%;
+    background:url("../img/domains/domin_01.jpg") center center no-repeat;
+    height:580px;    
+}
+.banner .pt{
+    padding-top: 132px;
+    color: #fff;
+}
+.banner p.ws{
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+}
+.banner h1{
+    text-align: center;
+    font-size: 34px;
+    line-height: 68px;
+    padding: 0;
+}
+.banner .search-box{
+    margin: 0 auto;
+    width: 900px;
+}
+.banner .zyw a{
+    display: inline-block;
+    padding: 0 18px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+.banner .zyw a.active{
+    color: #2277da;
+    background-color: #fff;
+    border-top: 2px solid #2277da;
+}
+.banner input{
+    border: 0;
+    outline: 0;
+    vertical-align: middle;
+}
+.banner input.case{
+    width: 749px;
+    height: 58px;
+    font-size: 14px;
+    line-height: 58px;
+    padding-left: 20px;
+    border: 1px solid #ccc;
+    border-right: 0;
+    outline: 0;
+}
+.banner input.sbt{
+    width: 130px;
+    height: 60px;
+    background: url(../img/domains/sbt_03.jpg) center no-repeat;
+    cursor: pointer;
+}
+.banner .checkbox{
+    font-size: 14px;
+    line-height: 28px;
+    margin-top: 30px;
+    user-select: none;
+}
+.banner label.checked{
+    background: url(../img/domains/checkbox.png) no-repeat left 15px;
+}
+.banner label{
+    display: inline-block;
+    width: 109px;
+    line-height: 42px;
+}
+label.checked input{
+    opacity: 0;
+}
+.banner label.on{
+    background-position-y: -27px;
+}
+/*全面的域名服务*/
+.dn-1 .content{
+    height: 535px;
+    color: #444;
+}
+.dn-1 ul{
+    margin: 15px 0;
+}
+.dn-1 ul li{
+    width: 348px;
+    height: 148px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    float: left;
+    margin: 25px;
+}
+.dn-1 ul li .dn-img{
+    background:url(../img/domains/domin_03.jpg) no-repeat center -132px;
+    width: 34px;
+    height: 26px;
+    float: left;
+    margin: 20px 0 0 35px;
+}
+.dn-1 ul li .b{
+    background-position: center -165px;
+}
+.dn-1 ul li .c{
+    background-position: center 4px;
+}
+.dn-1 ul li .d{
+    background-position: center -98px;
+}
+.dn-1 ul li .e{
+    background-position: center -31px;
+}
+.dn-1 ul li .f{
+    background-position: center -64px;
+}
+.dn-1 ul .dn-con{
+    float: right;
+    margin-right:20px;
+    width: 240px;
+    padding: 15px 0;
+}
+.dn-1 ul li p{
+    font-size: 14px;
+    color: #999;
+    line-height: 28px;
+}
+.dn-1 p.big{
+    font-size: 16px;
+    color: #444;
+    line-height: 32px;
+}
+.dn-1 ul li a{
+    color: #2277da;
+    font-size: 14px;
+}
+.dn-1 ul li a:hover{
+    text-decoration: underline;
+}
+/*产品表单*/
+.dn-2{
+    width: 100%;
+    background: #f2f2f2;
+    padding: 40px 0 80px;
+}
+.dn-2 table{
+    width: 100%;
+    border-collapse: collapse;     /*?表格边框合并*/
+    font-size: 14px;
+    background-color: #fff; 
+}
+.dn-2 table thead{
+    vertical-align: middle;
+}
+.dn-2 table thead th{
+    line-height: 70px;
+    background: #2277da;
+    color: #fff;
+}
+.dn-2 .dn-list{
+    width:100%;
+    height: 550px;
+}
+.dn-2 table tbody tr{
+    border: 1px solid #eee;
+}
+.dn-2 table tbody td{
+    line-height: 68px;
+}
+.dn-2 table tbody tr .pdf50{
+    width: 36%;
+    padding-left: 50px;
+    color: #999;
+}
+.dn-2 table tbody tr .pdf50 b{
+    display: inline-block;
+    width: 100px;
+    color: #444;
+}
+.dn-2 table tbody tr .first-y{
+    width: 28%;
+    text-align: center;
+}
+.dn-2 table tbody tr .first-y s{
+    display: inline-block;
+    width: 70px;
+    text-align: left;
+    color: #999;
+}
+.dn-2 ul.page{
+    float: right;
+    padding: 20px 0;
+}
+.dn-2 ul.page li{
+    float: left;
+    margin-right:15px;
+    padding:5px 10px;
+    background: #2277da;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.dn-2 ul.page li:last-child{
+    margin-right:0;
+}
+.dn-2 ul.page li.disabled{
+    background:#ccc
+}
+.dn-2 ul.page li.active{
+    background: transparent;
+    border: 1px solid #2277da;
+    color:#666
+}
+/*选择更多云产品*/
+.dn-3{
+    width: 100%;
+    height: 426px;
+    color: #444;
+}
+.dn-3 div.cp{
+    width: 100%;
+    height: 218px;
+    margin-top: 40px;
+    background: url(../img/domains/donmin_04.jpg);
+}
+.dn-3 ul{
+    display: flex;
+    justify-content: space-between;
+}
+.dn-3 ul li{
+    width: 249px;
+    padding: 20px;
+    padding-right: 0;
+    margin-right: 15px;
+    font-size: 14px;
+    color: #999;
+    line-height: 28px;
+}
+.dn-3 ul li:last-child{
+    margin-right: 0;
+}
+.dn-3 ul li .cpt{
+    font-size: 16px;
+    line-height: 32px;
+    color: #444
+}
+.dn-3 ul li a{
+    display: inline-block;
+    width: 241px;
+    height: 38px;
+    line-height: 38px;
+    color: #2277da;
+    text-decoration: none;
+    border: 1px solid #2277da;
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
+}
+.dn-3 ul li a:hover{
+    color: #fff;
+    background: #2277da;
+}
+/*我们的合作伙伴*/
+.partner{
+    color: #444;
+    padding-bottom: 40px;
+}
+.partner .hzp{
+    overflow: hidden;
+}
+.partner ul.hz{
+    width: 1694px !important;
+    height: 90px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.partner ul.hz li{
+    float: left;
+    width: 230px;
+    height: 90px;
+    border: 1px dashed #ccc;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+.partner ul.hz li img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 11px;
+}
+.partner div.dots{
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 537px;
+}
+.partner div.dots button{
+    float: left;
+    margin-right: 10px;
+    width: 12px;
+    height: 12px;
+    background-color: #ccc;
+    border-radius: 50%;
+    border: 0;
+    outline: 0;
+}
+.partner div.dots button.active{
+    background-color: #2277da;
+}

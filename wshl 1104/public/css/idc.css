@@ -1,0 +1,295 @@
+/*top-banner-start*/
+.banner{
+    background:url("../img/idc/idcbanner.jpg") center ;
+    text-align: center;
+    width: 100%;
+    height:440px;    /*?banner*/
+}
+/*top-banner-end*/
+/*至强处理器、英特尔固态硬盘...-开始*/
+.bafter{
+    width: 100%;
+    height: 114px;
+    color: #333;
+    padding-top: 10px;
+    background-color: #f2f2f2;
+}
+.bafter ul li{
+    float: left;
+    width: 172px;
+    margin-right: 33px;
+    padding-left: 103px;
+}
+.bafter ul li:last-child{
+    margin-right: 0;
+}
+.bafter ul li.b1{
+    background: url(../img/idc/idcsm_03.jpg) no-repeat left center;
+}
+.bafter ul li.b2{
+    background: url(../img/idc/idcsm_05.jpg) no-repeat left center;
+}
+.bafter ul li.b3{
+    background: url(../img/idc/idcsm_07.jpg) no-repeat left center;
+}
+.bafter ul li.b4{
+    background: url(../img/idc/idcsm_09.jpg) no-repeat left center;
+}
+.bafter ul li p:first-child{
+    line-height: 2em;
+}
+.bafter ul li p:nth-child(2){
+    font-size: 12px;
+    color: #999;
+    line-height: 2em;
+}
+/*至强处理器、英特尔固态硬盘...-开始*/
+/*合肥服务器、BGP多线服务器、香港服务器、高防服务器-开始*/
+.servers{
+    width: 100%;
+    height: 430px;
+    padding: 20px 0;
+    color: #333;
+}
+.servers>content>ul{
+    padding-top: 20px;
+}
+.servers li{
+    float: left;
+}
+.servers li.lf{
+    width: 286px;
+    height: 410px;
+    margin-top: 20px;
+    border-top: 8px solid #ff303a;
+    border-radius: 3px;
+    background: #fff;
+    box-shadow: 0 0 50px #dfdfdf;
+}
+.servers li span.icon{
+    display: block;
+    height: 122px;
+    overflow: hidden;
+}
+.servers li p.t1{
+    font-size: 24px;
+    text-align: center;
+    line-height: 26px;
+}
+.servers li p.t2{
+    font-size: 14px;
+    color: #999;
+    text-align: center;
+    line-height: 20px;
+    padding: 8px 0 20px 0;
+}
+.servers li .t3{
+    text-align: center;
+}
+.servers li .t3 span{
+    display: inline-block;
+    width: 74px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 14px;
+    border-right: 1px solid #e5e5e5;
+    margin: 10px 0;
+}
+.servers li .t3 span:last-child{
+    border-right: none;
+}
+.servers li .tb{
+    font-size: 14px;
+    margin-top: 15px;
+}
+.servers li .tb a{
+    color: #999;
+    text-decoration: none;
+}
+.servers li .tb table{
+    margin: 0 auto;
+}
+.servers li .tb td{
+    width: 50%;
+    line-height:30px;
+}
+.servers li .tb td .s1{
+    color: #ff303a;
+    font-size: 12px;
+    line-height: 16px;
+    position: relative;
+    top: -15px;
+}
+.servers li .tb td .s2{
+    color: #ff303a;
+    font-size: 32px;
+    line-height: 80px;
+}
+.servers li .tb td .s3{
+    color: #666;
+    font-size: 14px;
+    line-height: 36px;
+}
+.servers li .tb .ckxq{
+    display: inline-block;
+    color: #333;
+    padding: 5px 30px;
+    height: 20px;
+    line-height: 20px;
+    border:1px solid #d9d9d9;
+    border-radius: 3px;
+}
+.servers li .tb a:hover .ckxq{
+    border-color: #ff303a;
+    color: #ff303a;
+}
+.servers li.lr{
+    width: 300px;
+    height: 440px;
+    margin-top: -20px;
+}
+.servers li.lr .lc{
+    position: relative;
+}
+.servers li.lr>div{
+    width: 280px;
+    height: 200px;
+    background: #fafafa;
+    border-radius: 3px;
+    margin:20px 10px;
+    color: #333;
+    transition: all linear .3s;
+    cursor: pointer;
+}
+.servers li.lr a.cart{
+    width: 33px;
+    height: 33px;
+    overflow: hidden;
+    position: absolute;
+    right: 13px;
+    bottom: 5px;
+    opacity: 0;
+    background: url(../img/idc/cartIcon.png) no-repeat 0 0;
+    border: 0;
+    outline: 0;
+    display: block;
+    transition: all linear .3s;
+}
+.servers li.lr>div:hover{
+    box-shadow: 0 0 50px #dfdfdf;
+    height: 220px;
+}
+.servers li.lr>div:hover a.cart{
+    opacity: 1;
+}
+.servers li.lr p{
+    text-align: center;
+}
+.servers li.l4 p:first-child{
+    padding-top: 15px;
+}
+.servers li.lr p.t2{
+    line-height: 2em;
+}
+.servers li.l1 span.icon{
+    background: url(../img/idc/mdImg3.png) no-repeat center 22px;
+}
+.servers li.l3 span.icon{
+    background: url(../img/idc/mdImg1.png) no-repeat center 22px;
+}
+.servers li.l3 span.ts{
+    background: #e95048;
+    border-radius: 3px;
+    color: #fff;
+}
+/*合肥服务器、BGP多线服务器、香港服务器、高防服务器-结束*/
+/*服务器频繁被攻击、业务受影响怎么办？-开始*/
+.qus{
+    width: 100%;
+    height: 240px;
+    background: #f2f2f2;
+    color: #333;
+}
+.qus a{
+    display: inline-block;
+    color: #fff;
+    background: #2277da;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 3px 35px;
+    margin-top: 20px;
+}
+/*服务器频繁被攻击、业务受影响怎么办？-结束*/
+/*全球机房部署-开始*/
+.map .map-img{
+    width: 100%;
+    height: 594px;
+    background: url(../img/idc/idcmap.jpg) no-repeat left center;
+}
+/*全球机房部署-结束*/
+/*网硕互联优势-开始*/
+.ad{
+    width: 100%;
+    background: #f2f2f2;
+    height: 565px;
+}
+.ad ul{
+    margin-top: 40px;
+}
+.ad ul li{
+    float: left;
+    width: 43%;
+    padding-right: 7%;
+    margin-bottom: 36px;
+    font-size: 14px;
+    color: #666;
+    line-height: 28px; 
+}
+.ad ul li .adt{
+    font-size: 16px;
+    line-height: 2em;
+    color: #444;
+    padding-left: 44px;
+}
+.ad ul li .ad1{
+    background: url(../img/idc/yous_06.jpg) no-repeat left center;
+}
+.ad ul li .ad2{
+    background: url(../img/idc/yous_03.jpg) no-repeat left center;
+}
+.ad ul li .ad3{
+    background: url(../img/idc/yous_14.jpg) no-repeat left center;
+}
+.ad ul li .ad4{
+    background: url(../img/idc/yous_11.jpg) no-repeat left center;
+}
+.ad ul li .ad5{
+    background: url(../img/idc/yous_23.png) no-repeat left center;
+}
+.ad ul li .ad6{
+    background: url(../img/idc/yous_22.png) no-repeat left center;
+}
+/*网硕互联优势-结束*/
+/*我们的客户反馈-开始*/
+.cfb ul{
+    margin: 30px 0 40px;
+    height: 300px;
+}
+.cfb ul li{
+    float: left;
+}
+.cfb ul li.word{
+    width: 380px;
+    text-align: justify;
+    font-size: 14px;
+    color: #666;
+    line-height: 36px;
+    margin-right: 40px;
+}
+/*我们的客户反馈-结束*/
+
+

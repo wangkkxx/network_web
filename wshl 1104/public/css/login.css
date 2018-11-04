@@ -1,0 +1,111 @@
+.container{
+    background: #2277da;
+}
+section{
+    width: 100%;
+    height: 485px;
+    background: #2277da;
+    padding-top: 150px;
+}
+section .main{
+    width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+section .login-box{
+    width: 468px;
+    height: 420px;
+    margin: 0 auto;
+    border-radius: 4px;
+    background: rgba(255,255,255,.8);
+    position: relative;
+}
+.login-box a{
+    color: #444;
+    text-decoration: none;
+    font-size: 14px;
+}
+.login-box a:hover{
+    color: #2277da;
+}
+.login-box .timg{
+    text-align: center;
+    padding-top: 25px;
+    margin-bottom: 10px;
+}
+.login-box .log-sk{
+    width:300px;
+    height: 30px;
+    background:rgba(255,255,255,.8);
+    border:1px solid #fff;
+    border-radius: 4px;
+    padding:5px;
+    margin:0 auto;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.login-box .log-sk img,.log-sk input{
+    float:left;
+}
+.login-box .log-sk img{
+    margin: 5px 8px;
+}
+.login-box .log-sk input{
+    border:none;
+    outline: 0;
+    line-height: 30px;
+    background:rgba(255,255,255,0);
+}
+.login-box .log-3{
+    width: 300px;
+    margin:15px auto;
+    font-size: 14px;
+    color: #888;
+}
+.login-box .log-3 .rad{
+    vertical-align: middle;
+    margin-right: 3px;
+}
+.login-box .log-3 a{
+    float:right;
+}
+.login-box .log-4{
+    width: 300px;
+    margin: 0 auto;
+}
+.login-box .log-4 .smt{
+    width: 100%;
+    height: 40px;
+    background:#2377DA;
+    color:#fff;
+    text-align: center;
+    line-height: 40px;
+    border:0;
+    border-radius: 4px;
+}
+.login-box .log-5{
+    text-align: center;
+    font-size: 14px;
+    color: #888;
+    margin: 5px auto;
+}
+.login-box .log-5 a{
+    color: #2377DA;
+    margin-left: 8px;
+    text-decoration: none;
+}
+.login-box .log-5 a:hover{
+    text-decoration: underline;
+}
+.login-box .log-6{
+    text-align: center;
+    margin: 20px auto;
+    font-size: 14px;
+    color:#888;
+}
+.login-box .log-6 img{
+    width:20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}

@@ -1,0 +1,323 @@
+/*top-banner-start*/
+.banner{
+    background:url("../img/cooperation/cooperation.png") center ;
+    text-align: center;
+    width: 100%;
+    height:400px;    
+}
+/*top-banner-end*/
+/*主体内容样式-开始*/
+section{
+    width: 100%;
+    color: #444;
+}
+h1{
+    font-size: 34px;
+    font-weight: normal;
+    line-height: 68px;
+    padding-top: 40px;
+}
+.p0{
+    color: #666;
+    line-height: 32px;
+    margin-bottom: 40px;
+}
+.p14{
+    font-size: 14px;
+    line-height: 28px;
+}
+/*成为网硕互联的合作伙伴优势介绍*/
+.ptn1{
+    height: 460px;
+}
+.ptn1 .lf{
+    float: left;
+}
+.ptn1 .rt{
+    float: right;
+    font-size: 14px;
+    line-height: 28px;
+    width: 728px;
+    color: #444;
+}
+.ptn1 .rt ul{
+    margin-top: 10px;
+    color: #666;
+}
+.ptn1 .rt ul li{
+    float: left;
+    width: 29%;
+    padding-left: 27px;
+    background: url(../img/cooperation/partner_06.jpg) no-repeat left center;
+    line-height: 42px;
+}
+/*合作伙伴平台功能*/
+.ptn2{
+    width: 100%;
+    height: 628px;
+    background: url(../img/cooperation/partner_05.jpg) no-repeat center;
+    color: #fff;
+}
+.ptn2 h1{
+    text-align: center;
+    padding-top: 30px;
+}
+.ptn2 h3{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    margin-top: 15px;
+}
+.ptn2 ul li{
+    float: left;
+    width: 220px;
+    height: 220px;
+    background: rgba(255,255,255,.2);
+    box-sizing: border-box;
+    padding:0 20px;
+    margin: 30px 40px 0 40px;
+    text-align: center;
+}
+.ptn2 ul li:hover{
+    background:rgba(35,119,218,.4);
+}
+.ptn2 ul li div.img{
+    width: 57px;
+    height: 63px;
+    margin: 20px auto 0;
+    background: url(../img/cooperation/partner-1.png) no-repeat;
+}
+.ptn2 ul li div.a{
+    background-position: center 16px;
+}
+.ptn2 ul li div.b{
+    background-position: center -74px;
+}
+.ptn2 ul li div.c{
+    background-position: center -152px;
+}
+.ptn2 ul li div.d{
+    background-position: center -233px;
+}
+.ptn2 ul li div.e{
+    background-position: center -311px;
+}
+.ptn2 ul li div.f{
+    background-position: center -391px;
+}
+.ptn2 ul li div.g{
+    background-position: center -470px;
+}
+.ptn2 ul li div.h{
+    background-position: center -538px;
+}
+/*合作伙伴标准与级别*/
+.ptn3 .p0{
+    margin-bottom: 10px;
+}
+.ptn3 .p14 span.grey{
+    color: #999;
+    margin-left: 8px;
+}
+.ptn3 ul.main{
+    margin: 20px 0 40px;
+    height: 600px;
+    font-size: 14px;
+    line-height: 28px;
+}
+.ptn3 ul.main>li{
+    float: left;
+    width: 20%;
+    box-sizing: border-box;
+    color: #fff;
+    padding: 40px 20px;
+}
+.ptn3 ul.main div.img{
+    width: 120px;
+    height: 120px;
+    background: url(../img/cooperation/dluser.png);
+    margin: 0 auto 20px;
+}
+.ptn3 ul.main p.grade{
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.ptn3 ul.main p.cd{
+    margin: 0 0 40px 50px;
+}
+.ptn3 ul.main li ul{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.ptn3 ul.main span.diamond{
+    display: inline-block;
+    height: 12px;
+    background: url(../img/cooperation/diamond.png) repeat-x left center;
+    margin-left: 5px;
+}
+.ptn3 ul.main .l1{
+    background-color: #79a6d9;
+}
+.ptn3 ul.main .l1 span.diamond{
+    width: 15px;
+}
+.ptn3 ul.main .l2{
+    background-color: #649ad9;
+}
+.ptn3 ul.main .l2 span.diamond{
+    width: 30px;
+}
+.ptn3 ul.main .l3{
+    background-color: #4e8fd9;
+}
+.ptn3 ul.main .l3 span.diamond{
+    width: 45px;
+}
+.ptn3 ul.main .l4{
+    background-color: #3883d9;
+}
+.ptn3 ul.main .l4 span.diamond{
+    width: 60px;
+}
+.ptn3 ul.main .l5{
+    background-color: #2277da;
+}
+.ptn3 ul.main .l5 span.diamond{
+    width: 75px;
+}
+/*合作条件*/
+.ptn4{
+    width: 100%;
+    height: 770px;
+    background: url(../img/cooperation/partner.jpg) no-repeat center;
+    color: #fff;
+}
+.ptn4 h1,.ptn4 .p0{
+    text-align: center;
+}
+.ptn4 ul{
+    margin-top: 160px;
+    display: flex;
+    align-content:space-between;
+}
+.ptn4 ul li{
+    width: 200px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0 50px;
+    font-size: 12px;
+}
+.ptn4 ul li p.p12{
+    line-height: 24px;
+}
+.ptn4 ul li p.img{
+    width: 51px;
+    height: 51px;
+    margin: 0 auto 15px;
+    background: url(../img/cooperation/partner-1.png) no-repeat center top;
+}
+.ptn4 ul li p.a{
+    background-position: center -1107px;
+}
+.ptn4 ul li p.b{
+    background-position: center -1186px;
+}
+.ptn4 ul li p.c{
+    background-position: center -1265px;
+}
+.ptn4 ul li p.d{
+    background-position: center -1345px;
+}
+.ptn4 ul li p.e{
+    background-position: center -1424px;
+}
+.ptn4 ul li p.f{
+    background-position: center -1503px;
+}
+.ptn4 .txt{
+    font-size: 14px;
+    color: #c0c0c0;
+    line-height: 28px;
+    margin-top: 65px;
+}
+.ptn4 .txt .lf,.txt .rt{
+    width: 540px;
+    margin-left:30px; 
+}
+.ptn4 .txt p{
+    margin-bottom: 20px;
+}
+.ptn4 .txt .lf{
+    float: left;
+}
+.ptn4 .txt .rt{
+    float: right;
+}
+/*申请成为网硕合作伙伴*/
+.ptn5{
+    padding-bottom: 60px;
+    font-size: 14px;
+}
+.ptn5 ul li{
+    margin-bottom: 20px;
+    position: relative;
+}
+.ptn5 ul li span{
+    display: inline-block;
+}
+.ptn5 ul li span.pt{
+    color: #999;
+    width: 200px;
+    margin-right: 20px;
+    text-align: right;
+}
+.ptn5 input.ipt,input.sbt,.ptn5 select{
+    width: 408px;
+    height: 38px;
+    border-radius: 3px;
+}
+.ptn5 ul li input.ipt{
+    border: 1px solid #ccc;
+    outline: 0;
+    padding-left: 10px;
+}
+.ptn5 ul li input.ipt.active{
+    border:1px solid #2277da;
+}
+.ptn5 ul li select{
+    border: 1px solid #ccc;
+    color: #444;
+}
+.ptn5 ul li a{
+    color: #2277da;
+    text-decoration: none;
+}
+.ptn5 ul li .checkbox{
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.ptn5 ul li .sbt{
+    background: #2277da;
+    color: #fff;
+    border: none;
+}
+.ptn5 form p.warn,.ptn5 form p.fail,.ptn5 form p.success{
+    position: absolute;
+    left:635px;
+    top:10px;
+    font-size: 14px;
+    margin-left:20px;
+    display: none;
+}
+
+.ptn5 form p.warn.active,.ptn5 form p.fail.active,.ptn5 form p.success.active{
+    display: block;
+}
+.ptn5 form p.fail{
+    color: red;
+}
+.ptn5 form p.success{
+    color:#2277da;
+}
+/*主体内容样式-结束*/

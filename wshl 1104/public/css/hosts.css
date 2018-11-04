@@ -1,0 +1,330 @@
+header{
+    background:#111;
+    height:60px;
+    position:fixed;
+    top:0;
+    z-index:10
+}
+/*中间主体内容样式-开始*/
+section{
+    padding-top: 40px;
+    padding-bottom: 50px;
+    color: #444;
+    background: #fafafa;
+    position: relative;
+}
+table.empty{
+    width:1200px;
+    background: #2183ff;
+    margin:0 auto;
+}
+section h1{
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 48px;
+}
+section i{
+    font-style: normal;
+}
+section .chanp{
+    font-size: 16px;
+    line-height: 32px;
+    color: #666;
+    border-bottom: 1px solid #ccc;
+}
+section .rt{
+    float: right;
+    font-size: 12px;
+    color: #999;
+    position: relative;
+}
+section .rt span{
+    display: inline-block;
+    font-size: 14px;
+    color: #444;
+    width: 66px;
+    height: 32px;
+    background: url(../img/hosts/sltbag_02.png) no-repeat center;
+}
+section .rt ul{
+    position: absolute;
+    left:25px;
+    border:1px solid #ddd;
+    background: #fafafa;
+    width: 105px;
+    text-align: center;
+    display: none;
+}
+section .rt ul.active{
+    display: block;
+    z-index:3
+}
+section .rt ul li:hover{
+    background: #ccc;
+}
+section .left{
+    float: left;
+}
+section .left .lb{
+    width: 800px;
+    margin-top: 20px;
+    background: #fff;
+    border:1px solid #eee;
+}
+section .left .lb:hover{
+    box-shadow: 0 0 5px #ccc;
+}
+section .left p.p12{
+    float: left;
+    background: #eee;
+    color: #444;
+    width: 28px;
+    height: 100%;
+    line-height: 16px;
+    text-align: center;
+    box-sizing: border-box;
+}
+section .left .spec{
+    float: left;
+    box-sizing: border-box;
+    padding: 20px 0;
+    position: relative;
+}
+section .left span.p12{
+    display: inline-block;
+    width: 70px;
+    text-align: right;
+}
+section .left b{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: url(../img/hosts/i_06.jpg) no-repeat;
+    position: relative;
+    top:1px;
+    margin-right: 10px;
+}
+section .left b:hover{
+    background: url(../img/hosts/i_03.jpg) no-repeat;
+}
+section .left .spec b+p{
+    position: absolute;
+    left: 30px;
+    z-index: 8;
+    width: 234px;
+    font-size: 12px;
+    color: #999;
+    display: none;
+    padding: 0 9px;
+    line-height: 24px;
+    text-align: left;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.29);
+}
+section .left .spec>p img{
+    position: absolute;
+    left:46px;
+    top: -6px;
+}
+section .left .spec .dy{
+    float: right;
+    width: 670px;
+}
+section .left .spec .dy .desc{
+    font-size: 12px;
+    color: #666;
+    margin-top: 10px;
+}
+section .left .spec .dy .desc .dp{
+    display: none;
+}
+section .left .spec .dy .desc .dp.show{
+    display: block;
+}
+section .left .spec a.btn{
+    font-size: 14px;
+    display: inline-block;
+    padding: 0 18px;
+    height: 38px;
+    line-height: 38px;
+    background: #ebebeb;
+    margin-right: 10px;
+}
+section .left .spec a.btn.active{
+    background: #2277da;
+    color: #fff;
+}
+section .left .lb:hover p.p12{
+    background: #2277da;
+    color: #fff;
+    box-shadow: 0 1px 1px #2277da;  /*js实现*/
+}
+section .left label{
+    cursor: pointer;
+    margin-right: 10px;
+    color: #444;
+    font-size: 14px;
+    background: url(../img/hosts/radio_03.png) no-repeat left center;
+}
+section .left label.on{
+    background: url(../img/hosts/radio_05.png) no-repeat left center;
+}
+section .left input{
+    opacity: 0;
+    margin-right: 2px;
+}
+section .left .lb1{
+    height: 108px;
+}
+section .left .lb1 p.p12{
+    padding: 38px 0;
+}
+section .left .lb2{
+    height: 82px;
+}
+section .left .lb2 p.p12{
+    padding: 8px 0;
+}
+section .left .lb2 .kubox{
+    background: #ebebeb;
+    width: 640px;
+    height: 10px;
+    border-radius: 10px;
+    padding: 5px;
+}
+section .left .lb2 .slbox{
+    width: 640px;
+    height: 10px;
+    cursor: pointer;
+    background: #ccc;
+    border-radius: 5px;
+    position: relative;
+    transition: all linear .3s
+}
+section .left .lb2 .kubox .range{
+    width: 0;
+    height: 10px;
+    border-radius: 5px 0 0 5px;
+    background: #2277da;
+    transition: width .3s;
+    position: relative;
+}
+section .left .lb2 .kubox .handle{
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    margin-left:-2px;
+    background: url(../img/hosts/yun_03.png) no-repeat center;
+    position: absolute;
+    top:-3px;
+    transition: all linear .2s;
+}
+section .left .lb2 .rule{
+    font-size: 12px;
+}
+section .left .lb3{
+    height: 180px;
+}
+section .left .lb3 p.p12{
+    padding: 60px 0;
+}
+section .left .lb3 .spec{
+    padding: 5px 0;
+}
+section .left .lb3 table{
+    width: 700px;
+    font-size: 14px;
+    color: #666;
+}
+section .left .lb3 table td{
+    line-height: 40px;
+}
+section .left .lb3 table span.sql{
+    color: #444;
+}
+section .left .lb4{
+    height: 84px;
+}
+section .left .lb4 p.p12{
+    padding: 18px 0;
+}
+section .left .lb5{
+    height: 108px;
+}
+section .left .lb5 p.p12{
+    padding: 23px 0;
+}
+section .left .lb5 .disabled{
+    width: 62px;
+    text-align: center;
+    cursor: no-drop;
+}
+section .left .lb6{
+    height: 72px;
+}
+section .left .lb6 p.p12{
+    padding: 5px 0;
+}
+section .right{
+    float: right;
+    width: 350px;
+    position: relative;
+    margin-top: 20px;
+}
+section .right .list{
+    width: 100%;
+    background: #fff;
+    position: absolute;
+    box-shadow: 0 0 5px rgba(34,119,218,0.35);
+}
+section .right p.p18{
+    font-size: 18px;
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
+    background: #2277da;
+    color: #fff;
+}
+section .right ul{
+    margin-top: 10px;
+    font-size: 12px;
+}
+section .right ul li{
+    line-height: 36px;
+}
+section .right ul li span.p12{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+section .right ul li span.rig{
+    color: #444;
+    display: inline-block;
+    margin-left: 20px;
+}
+section .right ul li span.price{
+    font-size: 20px;
+    color: #ff4242;
+}
+section .right div.tj{
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    padding: 10px 0;
+}
+section .right div.tj input{
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    background: #2277da;
+    color: #fff;
+    border-radius: 5px;
+    border: 0;
+}
+section .right div.tj input:hover{
+    background: #2183ff;
+}
+/*中间主体内容样式-结束*/

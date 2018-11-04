@@ -1,0 +1,431 @@
+/*top-banner-start*/
+.banner{
+    background:url("../img/about/about-1.jpg") center ;
+    text-align: center;
+    width: 100%;
+    height:400px;    
+}
+/*top-banner-end*/
+section{
+    width: 100%;
+    color: #444;
+}
+h1{
+    font-size: 34px;
+    font-weight: normal;
+    line-height: 68px;
+    padding-top: 40px;
+}
+.p0{
+    color: #666;
+    line-height: 32px;
+    margin-bottom: 40px;
+}
+.p14{
+    font-size: 14px;
+    line-height: 28px;
+}
+section a{
+    color:#444;
+    text-decoration: none;
+}
+section .htnav{
+    width: 100%;
+    height: 60px;
+    background: #f2f2f2;
+}
+section .htnav span{
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 60px;
+    height: 48px;
+    cursor: pointer;
+}
+section .tabs .htnav{
+    width: 100%;
+    height: 60px;
+    background: #f2f2f2;
+}
+#tab li{
+	float: left;
+}
+#tab li a{
+    display:inline-block;
+    text-decoration:none;
+    color: #444;
+    height: 48px;
+    padding: 0 30px;
+    font-size: 14px;
+	line-height: 60px;
+	text-align: center;
+}
+#tab li.on{
+    border-bottom: 2px solid #2277da;
+}
+#content1,#content2,#content3,#content4{
+    padding:40px 0;
+    display: none;
+}
+section .lf{
+    float: left;
+}
+section .rt{
+    float:right;
+}
+section #content1 .lf,#content1 .rt{
+    width: 50%;
+    height: 300px;
+}
+section .tabs .grey{
+    color: #999;
+    font-size: 14px;
+    line-height: 28px;
+    padding-top: 30px;
+}
+section .tabs .img1{
+    text-align: center;
+}
+section .p20{
+    font-size: 20px;
+    line-height: 40px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+}
+section #after div.cont{
+    display: none;
+}
+section #after div.cont.active{
+    display: block;
+}
+section #content1{
+    padding-bottom: 0;
+}
+section #content1 .img2{
+    position: relative;
+    top:-14px;
+}
+section #content1 div.dots{
+    width: 275px; 
+    margin: 0 auto;
+    position: relative;
+}
+section #content1 hr.line{
+    width: 100%;
+    border:0;
+    border-top:1px solid #2277da;
+    margin: 30px auto;
+}
+section #content1 ul.dot{
+   position: absolute;
+   top:-5px;
+   margin: 0 auto;
+   margin-left: 50px;
+}
+section #content1 ul.dot li{
+    height: 10px;
+    width: 10px;
+    float: left;
+    border: 1px solid #2277da;
+    border-radius: 50%;
+    background:lightgray;
+    cursor: pointer;
+    margin-right: 25px;
+}
+section #content1 ul.dot li.active{
+    background: #2277da;
+}
+section #content1 div.pic{
+    width: 845px;
+    height: 442px;
+    margin: 0 auto 40px;
+    position: relative;
+    overflow: hidden;
+}
+section #content1 div.pic:hover .txt{
+    left:0;
+}
+section #content1 div.pic .txt{
+    position: absolute;
+    left: -280px;
+    top:0;
+    height: 100%;
+    width: 280px;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 20px;
+    font-size: 14px;
+    line-height: 28px;
+    background: rgba(0,0,0,.5);
+    transition: all linear .5s;
+}
+section #content1 div.pic li{
+    display: none;
+}
+section #content1 div.pic li.active{
+    display: block;
+}
+section #content1 div.qf{
+    width: 100%;
+    padding: 20px 0;
+}
+section #content1 .cantbox{
+    width: 100%;
+    height: 320px;
+    background: #f2f2f2;
+    padding: 40px 0;
+}
+section #content1 .cantbox ul.cant>li{
+    float: left;
+    font-size: 16px;
+    line-height: 32px;
+    width: 400px;
+}
+section #content1 .cantbox ul.cant .p18{
+    font-size: 18px;
+    margin: 10px 0 20px;
+}
+section #content1 .cantbox ul.cant .li1{
+    color: #2277da;
+    font-style: italic;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+section #content1 .cantbox ul.cant li ul{
+    padding-left: 60px;
+}
+section #content1 .cantbox ul.cant .li2{
+    color: #999;
+}
+section #content1 .cantbox ul.cant .li3{
+    color: #2277da;
+}
+section #content1 .cantbox ul.cant .li4{
+    font-size: 14px;
+    padding-left: 40px;
+    background: url(../img/about/about_07.png) no-repeat left center;
+}
+section #content1 .cantbox ul.cant .li4 a:hover{
+    color: #2277da;
+}
+section #content1 .cantbox ul.cant .li5{
+    font-size: 12px;
+    color: #999;
+}
+section #content1 .cantbox ul.cant>li:nth-child(2) a{
+    display: inline-block;
+    padding: 0 17px 0 45px;
+    margin: 0 15px 15px 0;
+    font-size: 14px;
+    border:1px solid #2277da;
+    border-radius: 15px;
+    background: url(../img/about/QQ.png) no-repeat 16px -39px;
+}
+section #content1 .cantbox ul.cant>li:nth-child(2) a:hover{
+    background:#2277da url(../img/about/QQ.png) no-repeat 16px 3px;
+    color: #fff;
+}
+section #content1 .cantbox ul.cant>li:nth-child(2) div{
+    padding:0 60px 0 40px; 
+}
+section #content1 .cantbox ul.cant>li:last-child p.p14{
+    color: #999;
+}
+section #content1 .cantbox ul.cant>li:last-child a{
+    display: inline-block;
+    color: #2277da;
+    border:1px solid #2277da;
+    border-radius: 3px;
+    padding: 0 16px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+section #content1 .cantbox ul.cant>li:last-child a:hover{
+    background: #2277da;
+    color: #fff;
+}
+section #content2{
+    font-size: 14px;
+    line-height: 28px;
+}
+section #content2 .p1{
+    padding: 0 50px;
+}
+section #content2 div.lic{
+    background: url(../img/about/about_04.jpg) no-repeat 80px top;
+}
+section #content2 ul{
+    margin-left: 210px;
+    line-height: 47px;
+    padding-top: 23px;
+}
+section #content2 ul li{
+    height: 47px;
+    line-height: 47px;
+}
+section #content2 ul .left{
+    font-size: 12px;
+    color: #999;
+    display: inline-block;
+    width: 75px;
+}
+section #content2 ul .right{
+    display: inline-block;
+    width: 810px;
+    margin-left: 43px;
+}
+section #content3 p.gt{
+    color: #999;
+    padding-left: 8px;
+    border-left: 2px solid #2277da;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+section #content3 .lf p.address{
+    font-size: 14px;
+    line-height: 32px;
+    margin-left: 20px;
+    padding-left: 17px;
+    background: url(../img/about/about-lx.png) no-repeat -3px -109px;
+}
+section #content3 .lf p.address span{
+    color: #999;
+    font-size: 12px;
+}
+section #content3 .lf .lgb{
+    margin-top: 20px;
+}
+section #content3 .lf .lgb ul li{
+    font-size: 12px;
+    line-height: 35px;
+    color: #999;
+    margin-left: 20px;
+    padding-left: 22px;
+}
+section #content3 .lf .lgb ul li:first-child{
+    background: url(../img/about/about-lx.png) no-repeat 0 -28px;
+}
+section #content3 .lf .lgb ul li:nth-child(2){
+    background: url(../img/about/about-lx.png) no-repeat 0 -66px;
+}
+section #content3 .lf .lgb ul li:nth-child(3){
+    background: url(../img/about/about-lx.png) no-repeat 0 12px;
+}
+section #content3 .lf li u,#content3 .lf li i,#content3 .lf li span{
+    margin-left: 8px;
+    font-size: 14px;
+    color: #444;
+}
+section #content3 .lf .lgb ul li i{
+    color: #2277da;
+}
+section #content3 .rt{
+    width: 60%;
+}
+section #content3 .rt ul{
+    padding-left: 20px;
+}
+section #content3 .rt ul>li{
+    float: left;
+}
+section #content3 .rt ul>li>span{
+    font-size: 12px;
+    color: #999;
+    width: 80px;
+    text-align: right;
+    background: url(../img/about/liQ_01.png) no-repeat 31px center;
+    float: left;
+}
+section #content3 .rt ul div.rtq{
+    font-size: 14px;
+    line-height: 28px;
+    float: left;
+    position: relative;
+    top:-20px;
+    left:90px;
+}
+section #content3 .rt ul div>span{
+    display: inline-block;
+    width: 320px;
+}
+section #content3 .rt ul div img{
+    vertical-align: middle;
+}
+section #content3 .rt ul div a{
+    width: 40%;
+    margin-right: 20px;
+    color: #2277da;
+}
+section #content3 .rt ul div a b{
+    color: #999;
+    font-weight: normal;
+}
+section #content3 .timg{
+    text-align: center;
+}
+section #content4 p.p20 a{
+    float: right;
+    font-size: 14px;
+    line-height: 32px;
+    padding: 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+section #content4 p.p20 a:hover{
+    color: #2277da;
+}
+section #content4 table{
+    margin-top: 20px;
+    width: 100%;
+    font-size: 14px;
+    border-collapse: collapse;
+}
+section #content4 table td{
+    padding:0 20px;
+}
+section #content4 table thead{
+    border: 1px solid #2277da;
+}
+section #content4 table thead tr td{
+    color: #fff;
+    background: #2277da;
+    line-height: 70px;
+}
+section #content4 table tbody tr{
+    border: 1px solid #eee;
+}
+section #content4 table tbody td{
+    line-height: 60px;
+}
+section #content4 table tbody tr:hover{
+    background: #f2f2f2;
+}
+section #content4 table tbody tr.placey{
+    background: #f2f2f2;
+    display: table-row;
+}
+section #content4 table tbody tr.placey div{
+    border-bottom: 1px solid #ccc;
+    display: none;
+    box-sizing: border-box;
+    padding: 20px 50px;
+    margin-bottom: 20px;
+}
+section #content4 table tbody tr.placey p.p20{
+    border-bottom: 0;
+}
+section #content4 table tbody tr.placey ul{
+    font-size: 14px;
+    line-height: 28px;
+    padding-left: 50px;
+}
+section #content4 table td.td{
+    cursor: pointer;
+}
+section #content4 tr.placey div.dd.active{
+    display:block;
+}
+section #content4 td img.active{
+    transform: rotate(180deg);
+}
