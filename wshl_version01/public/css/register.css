@@ -1,0 +1,105 @@
+div.bg{
+    width: 100%;
+    background: #f2f2f2 url(../img/reg/regbag.jpg) center top;
+    padding: 80px 0 40px;
+}
+header{
+    background:#111;
+    height:60px;
+    position:fixed;
+    top:0;
+    z-index:10
+}
+section{
+    width: 1200px;
+    margin: 0 auto;
+}
+section .main{
+    background: #fff;
+    color: #999;
+    border-radius: 3px;
+    padding-bottom: 20px;
+}
+section .ttop{
+    padding: 50px 0 20px 0;
+    text-align: center;
+}
+section .r1{
+    font-size: 12px;
+    text-align: center;
+    background: url(../img/reg/reg-1.jpg) no-repeat center;
+}
+section ul{
+    width: 420px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+section ul li{
+    margin-bottom: 20px;
+}
+section ul .int{
+    width: 410px;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 10px;
+    font-size: 14px;
+    border:1px solid #ccc;
+    border-radius: 3px;
+    outline: 0;
+}
+section ul .int.active{
+    outline:1px;
+}
+section ul li.scs{
+    margin-bottom: 10px;
+}
+section select.sbox{
+     color: #666;
+}
+section li.clause{
+    font-size: 12px;
+}
+section li.clause .checkbox{
+    vertical-align: middle;
+    margin-right: 5px;
+}
+section li.clause a{
+    color: #2277da;
+    text-decoration: none;
+}
+section li.sbt{
+    margin-bottom: 5px;
+}
+section li .sbt{
+    width: 100%;
+    height: 50px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #2277da;
+    border-radius: 3px;
+    border:0;
+}
+section li.last{
+    font-size: 12px;
+    text-align: center;
+}
+section li.last a{
+    color: #2277da;
+    text-decoration: none;
+}
+section form li p{
+    font-size: 14px;
+    margin-top: 5px;
+}
+section form li p.warn{
+    display:none;
+}
+section form li p.fail{
+    color:red;
+}
+section form li p.success{
+    color:#2277da;
+}
+section form li p.active{
+    display:block
+}

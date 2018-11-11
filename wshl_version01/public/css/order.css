@@ -1,0 +1,125 @@
+header{
+    background:#111;
+    height:60px;
+    position:fixed;
+    top:0;
+    z-index:10
+}
+section{
+    width: 100%;
+    min-height: 585px;
+    background: #f2f2f2 url(../img/order/purchase.jpg) no-repeat center bottom;
+    padding: 110px 0 40px;
+    font-size: 14px;
+    color: #444;
+}
+section .content{
+    height: 585px;
+}
+section b{
+    font-weight: normal;
+}
+section .lf{
+    float: left;
+}
+section .rt{
+    float: right;
+}
+section .plf{
+    width: 330px;
+    height: 353px;
+    margin:39px 0 0 55px;
+}
+section .plf h2{
+    font-size: 18px;
+    color: #2277da;
+    font-weight: normal;
+    padding-left: 126px;
+    margin-top: 24px;
+}
+section .after{
+    margin-top: 24px;
+    box-sizing: border-box;
+}
+section li{
+    line-height: 36px;
+}
+section .plf .lf li{
+    color: #999;
+    font-size: 12px;
+    width: 150px;
+    text-align: right;
+}
+section .plf .rt li{
+    width: 150px;
+}
+section .prt h3{
+    margin: 32px 0 0 30px;
+}
+section .prt .after{
+    width:800px;
+}
+section .prt .lf{
+    margin-right: 20px;
+}
+section .prt .after>.lf li{
+    color: #999;
+    font-size: 12px;
+    width: 150px;
+    text-align: right;
+}
+section .prt form .lf li{
+    text-align: left;
+}
+section .prt form .lf li .ftp{
+    height: 28px;
+    width: 220px;
+    padding-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+section .prt form .lf li select{
+    height: 30px;
+    width: 220px;
+    padding-left: 10px;
+}
+section .prt form .lf li label input{
+    vertical-align: middle;
+    margin-right: 3px;
+}
+section .prt form .lf li.time input{
+    opacity: 0;
+}
+section .prt form .lf li.time label{
+    background: url(../img/hosts/radio_03.png) no-repeat left center;
+    cursor: pointer;
+    margin-right: 10px;
+}
+section .prt form .lf li label.on{
+    background: url(../img/hosts/radio_05.png) no-repeat left center;
+}
+section .prt form .lf li.price{
+    color: #ff4242;
+    font-size:20px;
+}
+section .prt form .lf li span.btn{
+    display: inline-block;
+    background: #ff4242;
+    color: #fff;
+    line-height: 28px;
+    padding: 0 10px;
+    font-size: 12px;
+}
+section .prt form .lf li span b{
+    color: #ff4242;
+}
+section .prt form .lf li .sbt{
+    width: 220px;
+    line-height: 40px;
+    display: inline-block;
+    background: #2277da;
+    border: 0;
+    outline: 0;
+    color:#fff;
+    border-radius: 3px;
+}

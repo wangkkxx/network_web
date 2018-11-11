@@ -1,0 +1,405 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    padding:0;
+    list-style: none;
+}
+a{
+    color:inherit;
+    text-decoration: none;
+}
+a:hover{
+    color:#2277da;
+}
+div.container{
+    min-width:1200px;
+    position: relative;
+    color: #444;
+    font-size: 14px;
+}
+/*左侧导航栏*/
+div.left{
+    width:240px;
+    height:974px;
+    position: absolute;
+    background: #2277da;
+}
+.left .logo{
+    width:100%;
+    height:100px;
+    text-align: center
+}
+.left .logo a{
+    display: inline-block;
+    margin-top: 30px;
+}
+.left .logo a img{
+    width:100%;
+}
+.left .tab{
+    background: #2277da url(../img/logininfo/tubiao_01-1.png) no-repeat 45px top;
+    color:#fff;
+    width:100%;
+    line-height: 40px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 14px;
+    padding-left: 70px;
+}
+.left .tab.active{
+    background-image: url(../img/logininfo/tubiao_01.png);
+    background-color: #1f6abf;
+}
+.left ul.dropdown{
+    display:none;
+}
+.left ul.dropdown.active{
+    background-color: #1f6abf;
+}
+.left ul.dropdown li{
+    width:100%;
+    height: 40px;
+    padding-left: 90px;
+    color:#fff;
+    font-size: 14px;
+    line-height: 40px;
+    box-sizing: border-box;
+    background: url(../img/logininfo/tubiao_01.png) no-repeat 67px center;
+    cursor: pointer;
+}
+.left ul.dropdown li.active{
+    background-image: url(../img/logininfo/tubiao_01-1.png);
+    background-color: #185499;
+}
+.left ul.dropdown li.yh{
+    background-position-y: -120px;
+}
+.left ul.dropdown li.xg{
+    background-position-y: -200px;
+}
+.left ul.dropdown li.mm{
+    background-position-y: -600px;
+}
+.left ul.dropdown li.cw{
+    background-position-y: -280px;
+}
+.left ul.dropdown li.cz{
+    background-position-y: -520px;
+}
+.left ul.dropdown li.fp{
+    background-position-y: -240px;
+}
+.left ul.dropdown li.gz{
+    background-position-y: -320px;
+}
+.left ul.dropdown li.ls{
+    background-position-y: -360px;
+}
+.left ul.dropdown li.ym{
+    background-position-y: -480px;
+}
+.left ul.dropdown li.zj{
+    background-position-y: -440px;
+}
+.left ul.dropdown li.db{
+    background-position-y: -160px;
+}
+.left ul.dropdown li.yj{
+    background-position-y: -400px;
+}
+.left ul.dropdown li.yun{
+    background-position-y: -80px;
+}
+.left ul.dropdown li.fw{
+    background-position-y: -560px;
+}
+.left ul.dropdown li.qt{
+    background-position-y: -360px;
+}
+/*右侧内容*/
+div.right{
+    width:100%;
+    padding-left: 240px;
+    box-sizing: border-box;
+}
+/*右侧头部*/
+div.head{
+    height:80px;
+    box-shadow: 0 4px 4px #d9d9d9;
+}
+.head .hl{
+    float: left;
+}
+.head .hl span{
+    margin-left: 50px;
+    padding-left: 22px;
+    line-height: 80px;
+    background: url(../img/logininfo/tab_02.jpg) no-repeat left center;
+}
+.head .hl span:first-child{
+    background: url(../img/logininfo/tab_01.jpg) no-repeat left center;
+    padding-left: 26px;
+}
+.head .hr{
+    float: right;
+    margin-right: 20px;
+}
+.head .hr a{
+    padding: 0 12px;
+    line-height: 80px;
+}
+.head .hr a.bg{
+    padding-left: 25px;
+    margin-left: 5px;
+}
+.head .hr a.name{
+    background: url(../img/logininfo/head_04.png) no-repeat left center;
+}
+.head .hr a.quit{
+    background: url(../img/logininfo/tab_03.png) no-repeat left 3px;
+}
+section{
+    background: #f5f5f5;
+    padding:20px;
+    margin-top: 5px;
+}
+section h3 {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 32px;
+    padding-left: 24px;
+}
+section a.btn{
+    display: inline-block;
+    padding:0 12px;
+    border-radius: 3px;
+    line-height: 26px;
+    border: 1px solid #2277da;
+    color: #2277da;
+    margin:10px 0;
+}
+section b{
+    font-weight: normal;
+    color:#444
+}
+section>div{
+    margin-top:20px;
+}
+section div.box{
+    background: #fff;
+    border: 1px solid #e9e9e9;
+    border-radius: 3px;
+    box-sizing: border-box;
+    padding: 5px 20px;
+}
+section .sec1{
+    height:286px;
+    margin-top: 5px;
+}
+section .sec1>div{
+    float: left;
+    height:100%;
+    margin-right: 1%;
+}
+section .sec1 .my_msg{
+    width:19%;
+    background: #2277da;
+    color:#fff;
+    padding:5px 20px;
+    box-sizing: border-box;
+}
+section .sec1 .my_msg h3{
+    background: url(../img/logininfo/tab_09.png) no-repeat left center;
+}
+section .sec1 .my_msg p{
+    text-align: center;
+    line-height: 28px;
+}
+section .sec1 .my_msg p.img{
+    padding:10px 0;
+}
+section .sec1 .my_msg p.hy img{
+    display: inline-block;
+    margin-left: 5px;
+}
+section .sec1 .my_msg a.btn{
+    border: 1px solid #fff;
+    color: #fff;
+    margin: 0 auto;
+}
+section .sec1 .my_msg p.mb{
+    margin-top: 20px;
+}
+section .sec1 .my_zh{
+    width:44%;
+}
+section .sec1 .my_zh .kf{
+    height: 138px;
+    width:100%;
+    margin-bottom: 10px;
+}
+section .my_zh .kf h3{
+    background: url(../img/logininfo/tab_10.png) no-repeat left center;
+}
+section .my_zh .kf h3 span{
+    font-size: 12px;
+    color: #2277da;
+    margin-left: 10px;
+}
+section .my_zh .kf .cont ul{
+    float: left;
+}
+section .my_zh .kf .cont ul li{
+    line-height: 28px;
+    color: #999
+}
+section .my_zh .kf .cont a{
+    float: right;
+    margin:auto 0;
+}
+section .sec1 .my_zh .count{
+    width:49%;
+    margin-right: 1%;
+    height:137px;
+    float: left;
+}
+section .sec1 .my_zh .count h3{
+    background: url(../img/logininfo/tab_12_03.png) no-repeat left center;
+}
+section p.gray{
+    color: #999;
+    line-height: 28px;
+}
+section .sec1 .my_zh .count b{
+    color:#ff4242;
+}
+section .sec1 .my_zh .history{
+    width:49%;
+    height:137px;
+    float:right;
+}
+section .sec1 .my_zh .history h3{
+    background: url(../img/logininfo/tab_12_06.png) no-repeat left center;
+}
+section .sec1 .info{
+    width:35%;
+    margin-right: 0
+}
+section .sec1 .info h3{
+    background: url(../img/logininfo/tab_11.png) no-repeat left center;
+}
+section .sec1 .info li{
+    height: 36px;
+    line-height: 36px;
+}
+section .sec1 .info li span{
+    float: left;
+    width: 70%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+section .sec1 .info li b{
+    float: right;
+    color: #999;
+    width: 22%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+section .sec2{
+    height: 210px;
+}
+section .sec2 h3{
+    background: url(../img/logininfo/tab_12.png) no-repeat left center;
+}
+section .sec2 .after a{
+    float: left;
+    width:24%;
+    height:70px;
+    box-sizing: border-box;
+    line-height: 70px;
+    text-align: center;
+    border:1px solid #f5f6f9;
+    position: relative;
+    margin: 10px 1% 0 0;
+    background-color: #f5f6f9;
+    background-repeat: no-repeat;
+    background-position: 40px center;
+}
+section .sec2 .after a:hover{
+    border-color: #ccc;
+}
+section .sec2 .after a b{
+    position: absolute;
+    right: 30px;
+    color: #ff4242;
+}
+section .sec2 .after a.a1{
+    background-image:url(../img/logininfo/tuba_01.png)
+}
+section .sec2 .after a.a2{
+    background-image:url(../img/logininfo/tuba_02.png)
+}
+section .sec2 .after a.a3{
+    background-image:url(../img/logininfo/tuba_03.png)
+}
+section .sec2 .after a.a4{
+    background-image:url(../img/logininfo/tuba_04.png)
+}
+section .sec2 .after a.a5{
+    background-image:url(../img/logininfo/tuba_05.png)
+}
+section .sec2 .after a.a6{
+    background-image:url(../img/logininfo/tuba_06.png)
+}
+section .sec2 .after a.a7{
+    background-image:url(../img/logininfo/tuba_08.png)
+}
+section .sec2 .after a.a8{
+    background-image:url(../img/logininfo/tuba_09.png)
+}
+section .sec3{
+    height: 267px;
+}
+section .sec3>div{
+    width:49.5%;
+    height:100%;
+    box-sizing: border-box;
+    float: left;
+}
+section .sec3 .expire{
+    margin-right: 1%;
+}
+section .sec3 .expire h3{
+    background: url(../img/logininfo/tab_11.png) no-repeat left center;
+}
+section .sec3 .expire a{
+    float: right;
+    margin-top: -30px;
+}
+section .sec3 .expire p.pro{
+    margin-top: 20px;
+}
+section .sec3 .help h3{
+    background: url(../img/logininfo/tab_11.png) no-repeat left center;
+}
+section .sec3 .help li{
+    height: 36px;
+    line-height: 36px;
+}
+section .sec3 .help li span{
+    float: left;
+    width: 70%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+section .sec3 .help li span b{
+    float: right;
+    color: #999;
+    width: 22%;
+    white-space: nowrap;
+    overflow: hidden;
+}
